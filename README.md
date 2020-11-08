@@ -1,7 +1,7 @@
-# Southern-Applet
+# wechat-applet
 
 #### 介绍
-南方阅读小程序
+微信小程序
 
 #### 软件架构
 软件架构说明
@@ -15,9 +15,9 @@
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  项目依赖初始化
+2.  vscode开发工具npm run dev启动项目
+3.  微信开发者工具找到dist/wx打开
 
 #### 参与贡献
 
