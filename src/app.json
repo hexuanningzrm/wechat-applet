@@ -1,0 +1,50 @@
+{
+    "pages": [
+        "pages/index/main",
+        "pages/categoryList/main",
+        "pages/detail/main",
+        "pages/list/main",
+        "pages/read/main",
+        "pages/search/main",
+        "pages/shelf/main"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#55AB68",
+        "navigationBarTitleText": "",
+        "navigationBarTextStyle": "white"
+    },
+    "tabBar": {
+        "color": "#000000",
+        "selectedColor": "#55AB68",
+        "borderStyle": "black",
+        "backgroundColor": "#F5F5F5",
+        "list": [
+            {
+                "pagePath": "pages/index/main",
+                "text": "首页",
+                "iconPath": "/static/images/home.png",
+                "selectedIconPath": "/static/images/home-hover.png"
+            },
+            {
+                "pagePath": "pages/categoryList/main",
+                "text": "图书分类",
+                "iconPath": "/static/images/category.png",
+                "selectedIconPath": "/static/images/category-hover.png"
+            },
+            {
+                "pagePath": "pages/shelf/main",
+                "text": "我的书架",
+                "iconPath": "/static/images/bookcase.png",
+                "selectedIconPath": "/static/images/bookcase-hover.png"
+            }
+        ]
+    },
+    "usingComponents": {
+        "van-button": "vant-weapp/dist/button/index",
+        "van-icon": "vant-weapp/dist/icon/index",
+        "van-dialog": "vant-weapp/dist/dialog/index",
+        "van-rate": "vant-weapp/dist/rate/index",
+        "van-toast": "vant-weapp/dist/toast/index"
+    }
+}
